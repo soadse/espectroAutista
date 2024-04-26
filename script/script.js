@@ -55,7 +55,7 @@ function voltaMenu(){
     menuIndex.style.opacity = '100%'
 }
 function closeMenu(){
-    setTimeout(voltaMenu, 300)
+    setTimeout(voltaMenu, 301)
     setTimeout(fecha1, 300)
     setTimeout(fecha2, 250)
     setTimeout(fecha3, 200)
