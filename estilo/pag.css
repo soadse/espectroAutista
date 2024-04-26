@@ -55,11 +55,13 @@ div > p > strong {
 .voltar {
     width: 100%;
     text-align: end;
+    margin-bottom: 10px;
 }
 .voltar > a {
     text-decoration: none;
     color: darkblue;
     padding-right: 10px;
+    font-size: 20px;
 }
 .voltar > a:active {
     color: red;
