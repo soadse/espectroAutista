@@ -41,6 +41,17 @@ menu > #menuIndex {
     background-color: var(--azul);
     color: lightblue;
 }
+menu > #menuIndex:active {
+    background-color: darkblue;
+}
+@keyframes teste {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
 menu > #menu {
     display: flex;
     width: 100%;
