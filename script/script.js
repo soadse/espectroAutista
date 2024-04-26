@@ -23,7 +23,6 @@ function mostra5(){
 }
 function saiMenu(){
     menuIndex.style.display = 'none'
-    menuIndex.style.opacity = '0%'
 }
 function showMenu(){
     setTimeout(saiMenu, 110)
@@ -52,10 +51,9 @@ function fecha5(){
 }
 function voltaMenu(){
     menuIndex.style.display = 'block'
-    menuIndex.style.opacity = '100%'
 }
 function closeMenu(){
-    setTimeout(voltaMenu, 301)
+    setTimeout(voltaMenu, 300)
     setTimeout(fecha1, 300)
     setTimeout(fecha2, 250)
     setTimeout(fecha3, 200)
