@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espectro Autista (TEA)</title>
     <link rel="shortcut icon" href="imagens/4219243.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/index.css">
+    <link rel="stylesheet" href="estilo/portrait.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilo/landscape.css" media="screen and (orientation: landscape)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
 </head>
 <body>
     <header>
@@ -15,20 +17,28 @@
     <menu>
         <span class="material-symbols-outlined" onclick="showMenu()" id="menuIndex">menu</span>
         <div id="menu">
-            <a href="paginas/oque.html" target="_self" rel="next" id="opc1" style="display: none; animation: teste 1s forwards; margin-top: 20px;">O que é</a>
+            <a href="paginas/oque.html" target="_self" rel="next" id="opc1" style="display: none; animation: teste 1s forwards;">O que é</a>
             <a href="paginas/causa.html" target="_self" rel="next" id="opc2" style="display: none; animation: teste 1s forwards;">O que causa</a>
             <a href="paginas/tratamentos.html" target="_self" rel="next" id="opc3" style="display: none; animation: teste 1s forwards;">Tratamento ou Cura</a>
             <a href="paginas/identificar.html" target="_self" rel="next" id="opc4" style="display: none; animation: teste 1s forwards;">Indentificar ou Diagnosticar</a>
             <span class="material-symbols-outlined" id="closed" onclick="closeMenu()" style="display: none; animation: teste 1s forwards;">close</span>
         </div>
+        <nav>
+            <li>O que é</li>
+            <li>O que causa</li>
+            <li>Tratamento ou Cura</li>
+            <li>Indentificar ou Diagnosticar</li>
+        </nav>
     </menu>
     <main>
         <img src="imagens/gif5.gif" alt="">
-        <p><strong>O</strong> espectro autista é um vasto e diversificado mundo, onde cada pessoa traz consigo uma história singular e um conjunto único de características. É um universo onde as cores da compreensão e da percepção são infinitas, onde os padrões são desafiados e onde a beleza reside na diversidade.</p>
+        <p id="firstP"><strong>O</strong> espectro autista é um vasto e diversificado mundo, onde cada pessoa traz consigo uma história singular e um conjunto único de características. É um universo onde as cores da compreensão e da percepção são infinitas, onde os padrões são desafiados e onde a beleza reside na diversidade.</p>
 
         <p><strong>D</strong>entro desse espectro, encontramos uma riqueza de talentos, habilidades e pontos de vista. Algumas pessoas autistas possuem uma incrível capacidade de se concentrar em detalhes, de encontrar padrões onde outros não veem, e de mergulhar profundamente em áreas de interesse específicas. Suas mentes são como tesouros cheios de conhecimento e perspectivas únicas, enriquecendo o mundo com suas contribuições.</p>
 
-        <video src="videos/O QUE É TRANSTORNO DO ESPECTRO AUTISTA_(720P_HD).mp4" poster="imagens/img02.jpg" controls ></video>
+        <div id="video">
+            <video src="videos/O QUE É TRANSTORNO DO ESPECTRO AUTISTA_(720P_HD).mp4" poster="imagens/img02.jpg" controls ></video>
+        </div>
 
         <p><strong>N</strong>o entanto, o espectro autista também pode apresentar desafios únicos. Para algumas pessoas, a comunicação pode ser um obstáculo, seja pela dificuldade em expressar seus pensamentos e sentimentos verbalmente, seja pela sensibilidade sensorial que pode tornar o mundo ao seu redor avassalador. A interação social, muitas vezes, pode ser uma área de desconforto, onde os códigos não são tão claros e as nuances são difíceis de decifrar.</p>
 
